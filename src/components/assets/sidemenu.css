@@ -1,0 +1,22 @@
+.sidemenu_container_visible {
+  width: 300px;
+  min-width: 250px;
+  height: calc(100vh - 40px);
+  background-color: teal;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  z-index: 10;
+  transition: left 1s;
+}
+.sidemenu_container_invisible {
+  width: 20vw;
+  min-width: 250px;
+  height: calc(100vh - 40px);
+  background-color: teal;
+  position: fixed;
+  top: 40px;
+  left: -300px;
+  z-index: 10;
+  transition: left 1s;
+}
